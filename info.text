@@ -1,0 +1,31 @@
+http://localhost:5000/auth/resgiter  post (resgiter)
+{
+  "userName":"username",
+  "password":"12345"
+  
+}
+http://localhost:5000/auth/login    post (login)
+{
+  "userName":"username",
+  "password":"12345"
+  
+}
+
+http://localhost:5000/user/add    post (add a new user)
+
+{
+  "name":"pushkar",
+  "clas":"macq",
+  "roll":1
+}
+
+http://localhost:5000/user/1  put (edit users)
+{
+  "name":"pushkar1",
+  "clas":"mac1",
+  "roll":11
+}
+
+http://localhost:5000/user/1  delete (delete users)
+
+http://localhost:5000/user/  get(get users)
