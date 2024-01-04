@@ -11,7 +11,7 @@ http://localhost:5000/auth/login    post (login)
   
 }
 
-http://localhost:5000/user/add    post (add a new user)
+http://localhost:5000/user/    post (add a new user)
 
 {
   "name":"pushkar",
