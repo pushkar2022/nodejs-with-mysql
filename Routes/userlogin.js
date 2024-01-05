@@ -9,7 +9,7 @@ router.post("/resgiter",(req,res)=>{
     sql.query(query, (err, result) => {
         if (err) {
           console.log("error: ", err);
-        //   result(null, err);
+        
 
         }
     

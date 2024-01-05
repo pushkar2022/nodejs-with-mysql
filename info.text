@@ -29,3 +29,42 @@ http://localhost:5000/user/1  put (edit users)
 http://localhost:5000/user/1  delete (delete users)
 
 http://localhost:5000/user/  get(get users)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CREATE TABLE student (
+  id serial PRIMARY KEY,
+  name varchar(250) NOT NULL,
+  class varchar(250) NOT NULL,
+  roll int NOT NULL
+);
+
+
+CREATE TABLE users (
+  id serial PRIMARY KEY,
+  userName varchar(100) NOT NULL,
+  password varchar(100) NOT NULL
+);
